@@ -1,0 +1,7 @@
+includes:
+    - vendor/nunomaduro/larastan/extension.neon
+    - vendor/jbboehr/phpstan-laravel-validation/extension.neon
+parameters:
+    level: 5
+    paths:
+        - app
